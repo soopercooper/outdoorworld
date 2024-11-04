@@ -1,0 +1,34 @@
+[0.767s] Invoking command in '/home/crolson1/outdoorworld/outdoorworld': PYTHONPATH=/home/crolson1/outdoorworld/build/outdoorworld/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/outdoorworld build --build-base /home/crolson1/outdoorworld/build/outdoorworld/build install --record /home/crolson1/outdoorworld/build/outdoorworld/install.log --single-version-externally-managed install_data
+[1.014s] running egg_info
+[1.014s] creating ../build/outdoorworld/outdoorworld.egg-info
+[1.014s] writing ../build/outdoorworld/outdoorworld.egg-info/PKG-INFO
+[1.015s] writing dependency_links to ../build/outdoorworld/outdoorworld.egg-info/dependency_links.txt
+[1.015s] writing entry points to ../build/outdoorworld/outdoorworld.egg-info/entry_points.txt
+[1.015s] writing requirements to ../build/outdoorworld/outdoorworld.egg-info/requires.txt
+[1.015s] writing top-level names to ../build/outdoorworld/outdoorworld.egg-info/top_level.txt
+[1.015s] writing manifest file '../build/outdoorworld/outdoorworld.egg-info/SOURCES.txt'
+[1.017s] reading manifest file '../build/outdoorworld/outdoorworld.egg-info/SOURCES.txt'
+[1.017s] adding license file 'LICENSE'
+[1.018s] writing manifest file '../build/outdoorworld/outdoorworld.egg-info/SOURCES.txt'
+[1.018s] running build
+[1.018s] running build_py
+[1.018s] creating /home/crolson1/outdoorworld/build/outdoorworld/build
+[1.018s] creating /home/crolson1/outdoorworld/build/outdoorworld/build/lib
+[1.018s] creating /home/crolson1/outdoorworld/build/outdoorworld/build/lib/outdoorworld
+[1.018s] copying outdoorworld/__init__.py -> /home/crolson1/outdoorworld/build/outdoorworld/build/lib/outdoorworld
+[1.018s] running install
+[1.019s] running install_lib
+[1.019s] creating /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld
+[1.019s] copying /home/crolson1/outdoorworld/build/outdoorworld/build/lib/outdoorworld/__init__.py -> /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld
+[1.020s] byte-compiling /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld/__init__.py to __init__.cpython-310.pyc
+[1.020s] running install_data
+[1.020s] creating /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index
+[1.021s] creating /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index/resource_index
+[1.021s] creating /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index/resource_index/packages
+[1.021s] copying resource/outdoorworld -> /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index/resource_index/packages
+[1.021s] copying package.xml -> /home/crolson1/outdoorworld/install/outdoorworld/share/outdoorworld
+[1.021s] running install_egg_info
+[1.022s] Copying ../build/outdoorworld/outdoorworld.egg-info to /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld-0.0.0-py3.10.egg-info
+[1.024s] running install_scripts
+[1.046s] writing list of installed files to '/home/crolson1/outdoorworld/build/outdoorworld/install.log'
+[1.084s] Invoked command in '/home/crolson1/outdoorworld/outdoorworld' returned '0': PYTHONPATH=/home/crolson1/outdoorworld/build/outdoorworld/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/outdoorworld build --build-base /home/crolson1/outdoorworld/build/outdoorworld/build install --record /home/crolson1/outdoorworld/build/outdoorworld/install.log --single-version-externally-managed install_data

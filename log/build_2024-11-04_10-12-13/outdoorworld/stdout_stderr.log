@@ -1,0 +1,32 @@
+running egg_info
+creating ../build/outdoorworld/outdoorworld.egg-info
+writing ../build/outdoorworld/outdoorworld.egg-info/PKG-INFO
+writing dependency_links to ../build/outdoorworld/outdoorworld.egg-info/dependency_links.txt
+writing entry points to ../build/outdoorworld/outdoorworld.egg-info/entry_points.txt
+writing requirements to ../build/outdoorworld/outdoorworld.egg-info/requires.txt
+writing top-level names to ../build/outdoorworld/outdoorworld.egg-info/top_level.txt
+writing manifest file '../build/outdoorworld/outdoorworld.egg-info/SOURCES.txt'
+reading manifest file '../build/outdoorworld/outdoorworld.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/outdoorworld/outdoorworld.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/crolson1/outdoorworld/build/outdoorworld/build
+creating /home/crolson1/outdoorworld/build/outdoorworld/build/lib
+creating /home/crolson1/outdoorworld/build/outdoorworld/build/lib/outdoorworld
+copying outdoorworld/__init__.py -> /home/crolson1/outdoorworld/build/outdoorworld/build/lib/outdoorworld
+running install
+running install_lib
+creating /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld
+copying /home/crolson1/outdoorworld/build/outdoorworld/build/lib/outdoorworld/__init__.py -> /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld
+byte-compiling /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index
+creating /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index/resource_index
+creating /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index/resource_index/packages
+copying resource/outdoorworld -> /home/crolson1/outdoorworld/install/outdoorworld/share/ament_index/resource_index/packages
+copying package.xml -> /home/crolson1/outdoorworld/install/outdoorworld/share/outdoorworld
+running install_egg_info
+Copying ../build/outdoorworld/outdoorworld.egg-info to /home/crolson1/outdoorworld/install/outdoorworld/lib/python3.10/site-packages/outdoorworld-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/crolson1/outdoorworld/build/outdoorworld/install.log'
