@@ -11,7 +11,6 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/road/protos/CurvedRoadSegment.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StopSign.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Church.proto"
-EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/LargeResidentialTower.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/ComposedHouse.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/Warehouse.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/StripBuilding.proto"
@@ -19,12 +18,15 @@ EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/project
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/trees/protos/Forest.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/WorkBarrier.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/samples/contests/robocup/protos/RobocupSoccerField.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/traffic/protos/StreetLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/buildings/protos/GasStation.proto"
 
 WorldInfo {
 }
 Viewpoint {
-  orientation -0.28778066582291423 0.10281783093747157 0.9521611113776038 2.485639583206332
-  position 656.5476824264842 -545.7504258079326 453.0703525526883
+  orientation 0.07801172274652081 -0.9773476055915975 -0.196737970301849 5.512858217950716
+  position -772.841644058056 -121.11046937922846 616.4599299313256
 }
 TexturedBackgroundLight {
 }
@@ -36,6 +38,65 @@ Floor {
     type "light strip"
     colorOverride 0.341176 0.890196 0.537255
   }
+}
+StreetLight {
+  translation 15.29 -378.5 0
+  rotation 0 0 1 -1.5707953071795862
+}
+StreetLight {
+  translation -19.68 -378.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(4)"
+}
+StreetLight {
+  translation -19.68 -378.5 0
+  rotation 0 0 1 1.5708
+  name "street light(11)"
+}
+StreetLight {
+  translation -49 -378.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(5)"
+}
+StreetLight {
+  translation -49 -378.5 0
+  rotation 0 0 1 1.5708
+  name "street light(10)"
+}
+StreetLight {
+  translation -75.56 -378.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(6)"
+}
+StreetLight {
+  translation -75.56 -378.5 0
+  rotation 0 0 1 1.5708
+  name "street light(9)"
+}
+StreetLight {
+  translation -110.95 -378.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(7)"
+}
+StreetLight {
+  translation -110.95 -378.5 0
+  rotation 0 0 1 1.5708
+  name "street light(8)"
+}
+StreetLight {
+  translation 48.43 -378.5 0
+  rotation 0 0 1 -1.5707953071795862
+  name "street light(2)"
+}
+StreetLight {
+  translation 48.43 -378.5 0
+  rotation 0 0 1 1.5708
+  name "street light(3)"
+}
+StreetLight {
+  translation 15.29 -378.5 0
+  rotation 0 0 1 1.5708
+  name "street light(1)"
 }
 WorkBarrier {
   translation 320.89 89.63 0
@@ -134,6 +195,33 @@ StripBuilding {
   enableBoundingObject FALSE
 }
 StripBuilding {
+  translation 299.26 -72.7804 0
+  rotation 0 0 1 -1.5707953071795862
+  name "strip building(37)"
+  length 75
+  randomSeed 2
+  enableBoundingObject FALSE
+}
+StripBuilding {
+  translation 113.15 85.7496 0
+  rotation 0 0 1 3.14159
+  name "strip building(28)"
+  length 75
+  randomSeed 28
+  enableBoundingObject FALSE
+}
+StripBuilding {
+  translation -216.89 -309.99 0
+  rotation 0 0 1 1.5708
+  name "strip building(36)"
+  length 75
+  randomSeed 2
+  enableBoundingObject FALSE
+}
+GasStation {
+  translation -333.04 -357.35 0
+}
+StripBuilding {
   translation -109.59 183.96 0
   rotation 0 0 1 1.5708
   name "strip building(19)"
@@ -182,14 +270,6 @@ StripBuilding {
   enableBoundingObject FALSE
 }
 StripBuilding {
-  translation 127.35 315.6 0
-  rotation 0 0 1 -1.5707953071795862
-  name "strip building(28)"
-  length 75
-  randomSeed 2004
-  enableBoundingObject FALSE
-}
-StripBuilding {
   translation -319.47 210.8 0
   rotation 0 0 1 -1.5707953071795862
   name "strip building(29)"
@@ -235,6 +315,14 @@ StripBuilding {
   name "strip building(2)"
   length 150
   randomSeed 3
+  enableBoundingObject FALSE
+}
+StripBuilding {
+  translation 145.6 -238.43 0
+  rotation 0 0 1 1.5708
+  name "strip building(38)"
+  length 150
+  randomSeed 38
   enableBoundingObject FALSE
 }
 StripBuilding {
@@ -384,10 +472,6 @@ ComposedHouse {
   translation -6.75 -67.29 0
   enableBoundingObject FALSE
 }
-LargeResidentialTower {
-  translation -377.33 -298.99 0
-  scale 3
-}
 Church {
   translation -4.48 179.5 0
   rotation 0 0 1 3.14159
@@ -410,6 +494,11 @@ StopSign {
   translation -123.87 -301.63 0.18
   rotation 0 0 1 -3.1415853071795863
   name "stop sign(2)"
+}
+StopSign {
+  translation -328.11 -296.9 0.18
+  rotation 0 0 1 0.261807
+  name "stop sign(10)"
 }
 StopSign {
   translation -316.34 -80.47 0.18
@@ -468,7 +557,8 @@ StraightRoadSegment {
   locked FALSE
 }
 StraightRoadSegment {
-  translation -402.5 -387.28 0.03
+  translation -152.71 -387.28 0.03
+  rotation 0 0 1 3.14159
   name "road(3)"
   lines [
     RoadLine {
@@ -477,7 +567,21 @@ StraightRoadSegment {
     }
   ]
   bottom TRUE
-  length 250
+  length 126.2
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -299.99 -387.28 0.03
+  rotation 0 0 1 3.14159
+  name "road(107)"
+  lines [
+    RoadLine {
+      color 0.898039 0.647059 0.0392157
+      type "double"
+    }
+  ]
+  bottom TRUE
+  length 126.2
   locked FALSE
 }
 StraightRoadSegment {
@@ -570,6 +674,37 @@ StraightRoadSegment {
   ]
   bottom TRUE
   length 7
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -289.42 -397.84 0.03
+  rotation 0 0 1 -1.5707953071795862
+  name "road(108)"
+  lines [
+    RoadLine {
+      color 0.898039 0.647059 0.0392157
+      type "double"
+    }
+  ]
+  bottom TRUE
+  length 7
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -323.743 -298.998 0.03
+  rotation 0 0 1 -2.6179953071795863
+  name "road(111)"
+  lines [
+    RoadLine {
+      color 0.898039 0.647059 0.0392157
+      type "double"
+    }
+  ]
+  bottom TRUE
+  length 4.3
+  endLine [
+    ""
+  ]
   locked FALSE
 }
 StraightRoadSegment {
@@ -699,8 +834,8 @@ StraightRoadSegment {
   locked FALSE
 }
 StraightRoadSegment {
-  translation -336.262 -292.854 0.03
-  rotation 0 0 1 2.0944
+  translation -366.699 -240.146 0.03
+  rotation 0 0 1 -1.047195307179586
   name "road(104)"
   lines [
     RoadLine {
@@ -709,7 +844,21 @@ StraightRoadSegment {
     }
   ]
   bottom TRUE
-  length 60.9
+  length 68.9
+  locked FALSE
+}
+StraightRoadSegment {
+  translation -290.699 -371.786 0.03
+  rotation 0 0 1 2.0944
+  name "road(109)"
+  lines [
+    RoadLine {
+      color 0.898039 0.647059 0.0392157
+      type "double"
+    }
+  ]
+  bottom TRUE
+  length 76.05
   locked FALSE
 }
 StraightRoadSegment {
@@ -1036,7 +1185,7 @@ StraightRoadSegment {
     }
   ]
   bottom TRUE
-  length 205.4
+  length 196
   startLine [
     ""
     ""
@@ -1596,6 +1745,22 @@ StraightRoadSegment {
   locked FALSE
 }
 StraightRoadSegment {
+  translation -332.361 -299.632 0.03
+  rotation 0 0 1 -1.047195307179586
+  name "road(112)"
+  id "County"
+  lines [
+    RoadLine {
+      color 0.898039 0.647059 0.0392157
+      type "double"
+    }
+  ]
+  leftBorder FALSE
+  bottom TRUE
+  length 7.4
+  locked FALSE
+}
+StraightRoadSegment {
   translation -316.266 -85.227 0.03
   rotation 0 0 -1 -5.307179586466759e-06
   name "road(101)"
@@ -1838,8 +2003,8 @@ CurvedRoadSegment {
   locked FALSE
 }
 CurvedRoadSegment {
-  translation -327.665 -287.743 0.03
-  rotation 0 0 1 3.1373
+  translation -299.404 -376.718 0.03
+  rotation 0 0 1 -1.0514953071795858
   name "road(106)"
   lines [
     RoadLine {
@@ -1848,7 +2013,21 @@ CurvedRoadSegment {
     }
   ]
   bottom TRUE
-  totalAngle 1.04
+  totalAngle 0.52
+  locked FALSE
+}
+CurvedRoadSegment {
+  translation -318.837 -307.728 0.03
+  rotation 0 0 1 0.519296
+  name "road(110)"
+  lines [
+    RoadLine {
+      color 0.898039 0.647059 0.0392157
+      type "double"
+    }
+  ]
+  bottom TRUE
+  totalAngle 0.52
   locked FALSE
 }
 CurvedRoadSegment {
@@ -2067,6 +2246,12 @@ CrossRoadsTrafficLight {
   size 10 10
 }
 CrossRoadsTrafficLight {
+  translation -289.458 -387.237 0.1
+  rotation 0 0 1 1.5708
+  name "cross road traffic light(24)"
+  size 10 10
+}
+CrossRoadsTrafficLight {
   translation 93.882 -368.917 0
   rotation 0 0 1 1.5708
   name "cross road traffic light(18)"
@@ -2111,6 +2296,22 @@ CrossRoadsTrafficLight {
 RoadIntersection {
   translation -144.211 -387.283 0.03
   rotation 0 0 -1 -2.356185307179586
+  startRoadsLine [
+    RoadLine {
+      color 0.898039 0.647059 0.0392157
+      type "double"
+    }
+  ]
+  bottom TRUE
+  locked FALSE
+}
+RoadIntersection {
+  translation -289.421 -387.283 0.03
+  rotation 0 0 -1 -0.785395307179586
+  name "road intersection(27)"
+  startRoadsLength [
+    7.1
+  ]
   startRoadsLine [
     RoadLine {
       color 0.898039 0.647059 0.0392157
@@ -2468,13 +2669,27 @@ RoadIntersection {
   locked FALSE
 }
 Forest {
-  translation -73.95 -109.65 0
+  translation 129.67 349.05 0
   shape [
-    -36 25
-    -36 -10
-    20 -10
-    0 25
+    -200 30
+    -200 -40
+    20 -40
+    20 30
   ]
+}
+Forest {
+  translation 333.21 122.15 0
+  rotation 0 0 1 -1.5707953071795862
+  shape [
+    -100 100
+    -100 -10
+    20 -10
+    20 100
+  ]
+}
+RobocupSoccerField {
+  translation -74.46 -207.03 0.03
+  turfPhysics FALSE
 }
 Wall {
   translation 402.42 0 0
@@ -2496,4 +2711,14 @@ Wall {
   rotation 0 0 1 -1.5707953071795862
   name "wall(3)"
   size 0.2 804.672 2.4
+}
+Warehouse {
+  translation 255.44 271.8 0
+  rotation 0 0 1 -1.5707953071795862
+  name "warehouse(1)"
+}
+Warehouse {
+  translation 256.05 251.41 0
+  rotation 0 0 1 -1.5707953071795862
+  name "warehouse(2)"
 }
